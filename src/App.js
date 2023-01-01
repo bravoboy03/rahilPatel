@@ -7,7 +7,6 @@ import Testimonials from  './components/testimonials/testimonials';
 import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
 import resumeData from './resumeData';
-import { FloatingButton, Item } from "react-floating-button";
 
 class App extends Component {
   render() {
