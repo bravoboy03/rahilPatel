@@ -16,13 +16,15 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+               <li><a href="https://drive.google.com/file/d/1nJ7wCczKd8krTCfPJmp1noGKg-vC9Ono/view?usp=sharing" target="_blank">Download Resume</a></li>
+
             </ul>
          </nav>
 
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h3 style={{ color: 'white' }}>I am a {resumeData.role}.{resumeData.roleDescription}
                </h3>
                <hr/>
                <ul className="social">
