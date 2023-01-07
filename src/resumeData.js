@@ -1,6 +1,7 @@
 let resumeData = {
   "imagebaseurl":"https://techonoeticsclub.github.io/",
-  "name": "Rahil Vasudev Patel (RVP)",
+  "name": "Rahil Patel",
+  "fullName": "Rahil Vasudev Patel (RVP)",
   "role": "Backend Developer",
   "linkedinId":" patel-rahil",
   "roleDescription": " I like dabbling in various parts of backend development and site reliability, learning about new technologies is something I do in my free time and on travels, I also work on fullstack projects hence I keep up-to-date on the latest developments in the world of UI/UX as well.",
@@ -23,6 +24,8 @@ let resumeData = {
     {
       "UniversityName":"Arizona State University",
       "specialization":"Masters in Computer Science",
+      "MonthOfStarting":"August",
+      "YearOfStarting":"2022",
       "MonthOfPassing":"May",
       "YearOfPassing":"2024",
       "Achievements":""
@@ -30,12 +33,23 @@ let resumeData = {
     {
       "UniversityName":"Dhirubhai Ambani Institiute of ICT (DA-IICT)",
       "specialization":"B. Tech in Information and Communication Technology with Minors in Computational Sciences",
+      "MonthOfStarting":"July",
+      "YearOfStarting":"2017",
       "MonthOfPassing":"June",
       "YearOfPassing":"2021",
       "Achievements":"Secured 3rd position in the IEEE IAS CMD Humanitarian contest with our project The Eye. Chairperson for IEEE Student Branch "
     }
   ],
   "work":[
+    {
+      "CompanyName":"The Mathworks Inc.",
+      "specialization":"SDE Intern (Fulltime)",
+      "MonthOfStarting":"May",
+      "YearOfStarting":"2023",
+      "MonthOfLeaving":"August",
+      "YearOfLeaving":"2023",
+      "Achievements":"Will be working with the EDG(Engineering Development Group) on awesome products such as Mathworks and Simulink and try to make a difference in the team with my skills."
+    },
     {
       "CompanyName":"Zomato Ltd.",
       "specialization":"SDE 1 (Fulltime)",
@@ -47,16 +61,16 @@ let resumeData = {
     },
     {
       "CompanyName":"Zomato Pvt. Ltd.",
-      "specialization":"SDE Intern",
+      "specialization":"SDE Intern (Fulltime)",
       "MonthOfStarting":"Jan",
       "YearOfStarting":"2021",
       "MonthOfLeaving":"June",
       "YearOfLeaving":"2021",
-      "Achievements":"Developed a tool for Compe]]ve Analysis, allowing us to monitor real-]me pricing and offers on our products and make pricing decisions. For this, I developed the backend using Node and Amazon Web Services for processing requests. My work involved processing raw data, analyzing it from mul]ple perspec]ves, and designing an algorithm to turn it into understandable graphs and charts. "
+      "Achievements":"Developed a tool for Competitive Analysis, allowing us to monitor real-]me pricing and offers on our products and make pricing decisions. For this, I developed the backend using Node and Amazon Web Services for processing requests. My work involved processing raw data, analyzing it from mul]ple perspec]ves, and designing an algorithm to turn it into understandable graphs and charts. "
     },
     {
       "CompanyName":"Amazon Development Center India",
-      "specialization":"SDE Intern",
+      "specialization":"SDE Intern (Fulltime)",
       "MonthOfStarting":"May",
       "YearOfStarting":"2020",
       "MonthOfLeaving":"June",
@@ -107,16 +121,16 @@ let resumeData = {
     //     "imgurl":"images/portfolio/phone.jpg"
     //   }
     // ],
-  "testimonials":[
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    },
-    {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
-    }
-  ]
+  // "testimonials":[
+    // {
+    //   "description":"This is a sample testimonial",
+    //   "name":"Some technical guy"
+    // },
+    // {
+    //   "description":"This is a sample testimonial",
+    //   "name":"Some technical guy"
+    // }
+  // ]
 }
 
 export default resumeData
